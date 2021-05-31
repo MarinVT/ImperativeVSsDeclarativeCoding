@@ -1,0 +1,11 @@
+Pure functional programming has a set of rules to follow
+==============================================================
+- No state - There should be no state around my functions
+==============================================================
+- Pure Functions - They should not depend on any other state (impure - functions do depend on global state)
+==============================================================
+- High Order Functions - It is a high order function if there is at least one of those two conditions below:
+===========================================================================================================
+    * The function takes one or more functions as parameters.
+    * The function returns another function as result.
+============================================================================================================
